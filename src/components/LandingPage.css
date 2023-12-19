@@ -1,0 +1,49 @@
+.landing-page-container {
+  position: relative;
+  height: 100vh;
+  background: url("../Assests/alberto-restifo-cFplR9ZGnAk-unsplash.jpg")
+    center/cover fixed;
+  overflow: hidden;
+}
+
+.landing-page-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+.photo {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+/* 
+.photo-1 {
+  background: #ff5733; 
+}
+
+.photo-2 {
+  background: #33ff57; 
+}
+
+.photo-3 {
+  background: #5733ff; 
+}
+
+.photo-4 {
+  background: #ff5733; 
+} */
